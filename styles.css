@@ -1,0 +1,64 @@
+h1 {
+    font-family: "Monaco", monospace, sans-serif;
+}
+
+h1, a {
+    text-align:center;
+    display:block;
+}
+
+a {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(100, 100, 120);
+    width: 10%;
+    height: auto;
+    border-radius: 8px;
+    padding: 5px;
+    color: white;
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+a:active {
+    opacity: 0.3;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+}
+
+body {
+    background-color: rgb(215, 255, 255);
+}
+
+.recipe {
+    background-color: rgb(170, 147, 147);
+    margin: 50px;
+    padding: 20px;
+    border-radius: 16px;
+    text-align: center;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+ol, ul {
+    width: 15%;
+    list-style-position: outside;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: left;
+}
